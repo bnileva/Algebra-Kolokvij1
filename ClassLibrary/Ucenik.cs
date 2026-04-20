@@ -15,31 +15,55 @@ public class Ucenik
         Prosjek = 0.0d;
     }
 
-    internal void Starost()
+    //internal void Starost()
+    //{
+    //    int starost = DateTime.Now.Year - DateTime.Parse(DatumRodjenja).Year;
+    //    Console.WriteLine($"Starost: {starost}");
+    //}
+
+    internal int Starost()
     {
-        int starost = DateTime.Now.Year - DateTime.Parse(DatumRodjenja).Year;
-        Console.WriteLine($"Starost: {starost}");
+        return DateTime.Now.Year - DateTime.Parse(DatumRodjenja).Year;
     }
 
-    internal void IspisProsjeka()
+    //internal void IspisProsjeka()
+    //{
+    //    switch (Prosjek)
+    //    {
+    //        case >= 1.00 and <= 1.49:
+    //            Console.WriteLine($"{Prosjek} = Nedovoljan!");
+    //            break;
+    //        case >= 1.50 and <= 2.49:
+    //            Console.WriteLine($"{Prosjek} = Dovoljan!");
+    //            break;
+    //        case >= 2.50 and <= 3.49:
+    //            Console.WriteLine($"{Prosjek} = Dobar!");
+    //            break;
+    //        case >= 3.50 and <= 4.49:
+    //            Console.WriteLine($"{Prosjek} = Vrlo dobar!");
+    //            break;
+    //        case >= 4.50 and <= 5.0:
+    //            Console.WriteLine($"{Prosjek} = Odlican!");
+    //            break;
+    //    }
+    //}
+
+    internal string IspisProsjeka()
     {
         switch (Prosjek)
         {
             case >= 1.00 and <= 1.49:
-                Console.WriteLine($"{Prosjek} = Nedovoljan!");
-                break;
+                return "Nedovoljan!";
             case >= 1.50 and <= 2.49:
-                Console.WriteLine($"{Prosjek} = Dovoljan!");
-                break;
+                return "Dovoljan!";
             case >= 2.50 and <= 3.49:
-                Console.WriteLine($"{Prosjek} = Dobar!");
-                break;
+                return "Dobar!";
             case >= 3.50 and <= 4.49:
-                Console.WriteLine($"{Prosjek} = Vrlo dobar!");
-                break;
+                return "Vrlo dobar!";
             case >= 4.50 and <= 5.0:
-                Console.WriteLine($"{Prosjek} = Odlican!");
-                break;
+                return "Odličan!";
+            default:
+                return "Neispravan!";
         }
     }
 
@@ -62,7 +86,9 @@ public class Ucenik
         Console.WriteLine($"Prezime: {Prezime}");
         Console.ResetColor();
         Console.WriteLine($"Datum rođenja: {DatumRodjenja}");
-        Starost();
-        IspisProsjeka();
+        //Starost();
+        //IspisProsjeka();
+        Console.WriteLine($"Starost: {Starost}");
+        Console.WriteLine($"Prosjek {Prosjek} je {IspisProsjeka()}");
     }
 }

@@ -6,7 +6,7 @@ internal class Program
     static void Main(string[] args)
     {
         List<Ucenik> ucenici = new();
-        for (int i = 1; i <= 1; i++)
+        for (int i = 1; i <= 3; i++)
         {
             Console.WriteLine("Unesite podatke {0}. učenika:", i);
             Ucenik ucenik = new ();
