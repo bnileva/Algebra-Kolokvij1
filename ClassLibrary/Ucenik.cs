@@ -88,7 +88,7 @@ public class Ucenik
         Console.WriteLine($"Datum rođenja: {DatumRodjenja}");
         //Starost();
         //IspisProsjeka();
-        Console.WriteLine($"Starost: {Starost}");
+        Console.WriteLine($"Starost: {Starost()}");
         Console.WriteLine($"Prosjek {Prosjek} je {IspisProsjeka()}");
     }
 }
