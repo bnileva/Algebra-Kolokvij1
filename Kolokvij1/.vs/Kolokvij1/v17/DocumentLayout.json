@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "E:\\Algebra\\Algebra-Kolokvij1\\Kolokvij1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36A95358-1954-4D5D-B021-01C6A6F3F5E1}|..\\Ispit.Konzola\\Ispit.Konzola.csproj|e:\\algebra\\algebra-kolokvij1\\ispit.konzola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBB9D334-0DC4-41DE-8B07-95249D710CA6}|..\\ClassLibrary\\Ispit.Model.csproj|e:\\algebra\\algebra-kolokvij1\\classlibrary\\ucenik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBB9D334-0DC4-41DE-8B07-95249D710CA6}|..\\ClassLibrary\\Ispit.Model.csproj|e:\\algebra\\algebra-kolokvij1\\classlibrary\\ucenik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36A95358-1954-4D5D-B021-01C6A6F3F5E1}|..\\Ispit.Konzola\\Ispit.Konzola.csproj|e:\\algebra\\algebra-kolokvij1\\ispit.konzola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
         },
         {
           "DockedHeight": 126,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,26 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Algebra\\Algebra-Kolokvij1\\Ispit.Konzola\\Program.cs",
               "RelativeDocumentMoniker": "..\\Ispit.Konzola\\Program.cs",
               "ToolTip": "E:\\Algebra\\Algebra-Kolokvij1\\Ispit.Konzola\\Program.cs",
               "RelativeToolTip": "..\\Ispit.Konzola\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T17:28:31.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Ucenik.cs",
               "DocumentMoniker": "E:\\Algebra\\Algebra-Kolokvij1\\ClassLibrary\\Ucenik.cs",
               "RelativeDocumentMoniker": "..\\ClassLibrary\\Ucenik.cs",
               "ToolTip": "E:\\Algebra\\Algebra-Kolokvij1\\ClassLibrary\\Ucenik.cs",
               "RelativeToolTip": "..\\ClassLibrary\\Ucenik.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwDAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T17:02:07.92Z",
               "EditorCaption": ""
